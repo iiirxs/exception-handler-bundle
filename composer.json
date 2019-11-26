@@ -1,0 +1,23 @@
+{
+    "name": "iiirxs/exception-handler-bundle",
+    "description": "A Symfony bundle that provides custom exception handling out of the box",
+    "type": "symfony-bundle",
+    "require": {
+        "ext-json": "*",
+        "php": "^7.1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nik G",
+            "email": "iiirxs@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IIIRxs\\ExceptionHandlerBundle\\": "src/"
+        }
+    },
+    "require-dev": {
+    }
+}
