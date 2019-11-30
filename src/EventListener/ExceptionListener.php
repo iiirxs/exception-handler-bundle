@@ -11,7 +11,7 @@ class ExceptionListener
 
     public function onKernelException(ExceptionEvent $event)
     {
-        $exception = $event->getException();
+        $exception = $event->getThrowable();
         $request = $event->getRequest();
 
         if ($request->isXmlHttpRequest()) {

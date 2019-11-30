@@ -1,6 +1,6 @@
 Usage
 ============
-This bundle provides custom exception handling for ajax requests. By default it provides validation exception class, but you can create any custom exception to be handled, by implementing the IIIRxs\ExceptionHandlerBundle\Exception\ExceptionInterface. 
+This bundle provides custom exception handling for ajax requests. By default it provides validation exception class, but you can create any custom exception to be handled, by implementing the **IIIRxs\ExceptionHandlerBundle\Exception\ExceptionInterface**. 
 
 
 Installation

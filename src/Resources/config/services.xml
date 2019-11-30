@@ -9,6 +9,7 @@
         <service
             id="iiirxs_exception_handler.event_listener.exception_listener"
             class="IIIRxs\ExceptionHandlerBundle\EventListener\ExceptionListener"
+            public="true"
         >
             <tag name="kernel.event_listener" event="kernel.exception" />
         </service>
